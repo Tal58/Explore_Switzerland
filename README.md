@@ -27,7 +27,7 @@
 
 ## 📱Mobile version
 <br>
-<img src="images/mobile_version.gif" width="400" height="400" align="left" alt="mobile_version">
+<img src="images/mobile_version.gif" width="300" height="400" align="left" alt="mobile_version">
 
 
 
