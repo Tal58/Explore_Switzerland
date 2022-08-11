@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.icon img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.icon {
+    width: 30%;
+}
+
+.combonav {
+    margin: 0;
+    text-align: right;
+    width: 70%;
+}
+
+.combonav nav {
+    margin: 7%;
+}
+
+.combonav nav a {
+    justify-content: space-around;
+    margin: 5%;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    color: black;
+
+}
+
+.combonav nav a:hover {
+    border: 1px solid black;
+    border-radius: 1vw;
+    background: red;
+    color: white;
+    transition: 1s;
+}
+
+.dropdown {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    display: inline-block;
+}
+
+
+.dropdown li:hover ul {
+    justify-content: center;
+    display: block;
+}
+
+.dropdown li ul {
+    position: absolute;
+    width: auto;
+    display: none;
+}
+
+.dropdown li ul li {
+    display: block;
+    width: 20vw;
+}
+
+.dropdown li ul li a {
+    display: block !important;
+    float: left;
+   
+}
+
+.swiss {
+    padding-left: 10%;
+    width: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.swiss h1 {
+    font-size: 4vw;
+    padding-bottom: 2vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.swiss h2 {
+    font-size: 2vw;
+    padding-bottom: 1vw;
+}
+
+.swiss p {
+    font-size: 1.5vw;
+    text-align: left;
+    padding-right: 15%;
+}
+
+.swiss button {
+    float: right;
+    height: 4vw;
+    width: 9vw;
+    margin-top: 15%;
+    margin-right: 20%;
+    font-size: 2vw;
+    border-radius: 2vw;
+    background-color: white;
+
+}
+.swiss button:hover{
+    background-color: red;
+
+}
+
+.swiss button a {
+    text-decoration: none;
+    color: red;
+}
+.swiss button a:hover {
+    color: white;
+
+}
+
+.swiss button:hover+.mihail {
+    display: block;
+}
+
+.mihail {
+    margin-left: 30%;
+    margin-top: 7%;
+    float: right;
+    display: none;
+}
+
+
+.medium {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 50vw;
+}
+.video {
+    display: flex;
+    width: 60%;
+
+}
+
+.video video {
+    position: absolute;
+    width: 59%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.video img {
+    margin: -0.1%;
+    position: absolute;
+    mix-blend-mode: screen;
+    width: 60%;
+    height: 80%;
+}
+
+
+.pictures{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.pictures img{
+    padding: 3.5%;
+    height: 20vw;
+    width: 20vw;
+    filter: drop-shadow(30px 10px 4px #bb0c1b);
+
+}
+
+.a1 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a1:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.a2 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a2:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.a3 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a3:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.a4 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a4:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.a5 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a5:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}.a6 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a6:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}.a7 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a7:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}.a8 img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.a8:hover img{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+footer {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0;
+    display: flex;
+    opacity: 0.7;
+    margin-bottom: 0;
+    background-color: #eaecf157;
+    height: 7vw;
+}
+
+
+.table {
+    padding-left: 5%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.table nav {
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.table nav a {
+    display: flex;
+    font-size: 1vw;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Saira', sans-serif;
+    font-size: 1vw;
+    display: flex;
+    width: 15vw;
+}
+
+.table nav a:hover {
+    color: red;
+}
+
+.info1 {
+    display: flex;
+}
+
+.info2 {
+    display: flex;
+    margin-top: 2%;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia img {
+    margin-top: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 1.4vw;
+    height: 1.4vw;
+}
+
+.socialmedia:hover {
+    color: red;
+}
+
+.object p i {
+    color: red;
+}
+
+.object {
+    padding-left: 0;
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    animation: MoveUpDown 1s linear infinite;
+    position: relative;
+    font-size: 1.4vw;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        left: 1vw;
+    }
+
+    50% {
+        left: 3vw;
+    }
+}
+
+@media all and (max-width: 920px) {
+    header {
+        display: inline-block;
+    }
+
+    .icon {
+        margin-left: 27%;
+        margin-right: 27%;
+        width: 45%;
+        justify-items: center;
+        align-content: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .combonav {
+        display: block;
+        text-align: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 15vw;
+    }
+
+    .combonav nav {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .combonav nav a {
+        font-size: 4vw;
+        height: 5vw;
+    }
+    
+.dropdown li ul li {
+    width: 45vw;
+}
+    
+
+    .medium {
+        display: inline-block;
+        width: 98%;
+        margin-bottom: 95%;
+    }
+
+    .swiss {
+        padding: 0;
+        width: 100%;
+        height: 30vw;
+        margin-bottom: 25%;
+    }
+
+    .swiss h1 {
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .swiss h2 {
+        margin-top: 3%;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .swiss p {
+        margin-top: 3%;
+        padding-bottom: 5%;
+        text-align: center;
+        font-size: 4vw;
+        padding: 0;
+    }
+    .swiss button{
+        display: inline-block;
+        float: none;
+        margin-left: 43%;
+        margin-top: 3%;
+        height: 7vw;
+        width: 15vw;
+    }
+
+    .video {
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .video video {
+        margin: 0.15%;
+        width: 59.3%;
+        height: 50%;
+    }
+
+    .video img {
+        margin: -0.1%;
+        width: 60.3%;
+        height: 50.3%;
+    }
+
+    
+
+    footer {
+        display: block;
+        padding: 0;
+        height: 70vw;
+    }
+
+    .table {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .table nav {
+        margin-top: 5%;
+        text-align: center;
+        display: block;
+        justify-content: center;
+
+    }
+
+    .table nav a {
+        padding: 2%;
+        display: block;
+        font-size: 3vw;
+        width: auto;
+        cursor: pointer;
+    }
+
+    .table nav a:hover {
+        color: red;
+
+    }
+
+    .info1 {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .info2 {
+        margin-top: 0;
+        display: block;
+    }
+
+    .socialmedia {
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .socialmedia img {
+        margin-top: 5%;
+        height: 4vw;
+        width: 4vw;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10%;
+    }
+
+    .object {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .object p {
+        font-size: 3vw;
+
+    }
+}
